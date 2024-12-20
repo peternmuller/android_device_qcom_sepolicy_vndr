@@ -53,6 +53,7 @@ allow vendor_hal_perf_default proc:file rw_file_perms;
 allow vendor_hal_perf vendor_latency_device:chr_file rw_file_perms;
 get_prop(vendor_hal_perf, vendor_freq_prop)
 get_prop(vendor_hal_perf, vendor_mpctl_prop)
+get_prop(vendor_hal_perf, vendor_afp_prop)
 allow vendor_hal_perf_default vendor_mpctl_data_file:dir rw_dir_perms;
 allow vendor_hal_perf_default vendor_mpctl_data_file:file create_file_perms;
 allow vendor_hal_perf_default vendor_lm_data_file:dir rw_dir_perms;

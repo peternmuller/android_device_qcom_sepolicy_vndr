@@ -74,3 +74,4 @@ type vendor_syshealthmon_service,        hal_service_type, protected_service, se
 type vendor_hal_MemHal_service,           hal_service_type, protected_service, service_manager_type;
 type vendor_hal_snapx_service,           hal_service_type, service_manager_type;
 type vendor_hal_qvirtvendor_service,     hal_service_type, protected_service, service_manager_type;
+type vendor_hal_pasrmanager_service,     hal_service_type, protected_service, service_manager_type;
